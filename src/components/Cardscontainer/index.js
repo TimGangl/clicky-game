@@ -1,5 +1,5 @@
 import React from "react";
-import "./index.css";
+import "./cardcontainer.css";
 import GameCard from "../Cards";
 
 function CardContainer() {
