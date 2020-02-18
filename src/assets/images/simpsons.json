@@ -2,73 +2,73 @@
   {
     "id": 1,
     "name": "Homer",
-    "image": "/assets/images/homer-beer.jfif",
+    "image": "./assets/images/homer-beer",
     "alt": "Homer"
   },
   {
     "id": 2,
     "name": "Marge",
-    "image": "/assets/images/marge.jfif",
+    "image": "./assets/images/marge",
     "alt": "Marge"
   },
   {
     "id": 3,
     "name": "Bart",
-    "image": "/assets/images/bart.png",
+    "image": "./assets/images/bart",
     "alt": "Bart"
   },
   {
     "id": 4,
     "name": "Lisa",
-    "image": "/assets/images/lisa.jfif",
+    "image": "./assets/images/lisa",
     "alt": "Lisa"
   },
   {
     "id": 5,
     "name": "Maggie",
-    "image": "/assets/images/maggie.jfif",
+    "image": "./assets/images/maggie",
     "alt": "Maggie"
   },
   {
     "id": 6,
     "name": "Grandpa",
-    "image": "/assets/images/grandpa-simpson.png",
+    "image": "./assets/images/grandpa-simpson",
     "alt": "grandpa-simpson"
   },
   {
     "id": 7,
     "name": "Millhouse",
-    "image": "/assets/images/millhouse.png",
+    "image": "./assets/images/millhouse",
     "alt": "Millhouse"
   },
   {
     "id": 8,
     "name": "Skinner",
-    "image": "/assets/images/skinner.png",
+    "image": "./assets/images/skinner",
     "alt": "Skinner"
   },
   {
     "id": 9,
     "name": "Burns",
-    "image": "/assets/images/mr-burns.jfif",
+    "image": "./assets/images/mr-burns",
     "alt": "Mr. Burns"
   },
   {
     "id": 10,
     "name": "Moe",
-    "image": "/assets/images/moe.jfif",
+    "image": "./assets/images/moe",
     "alt": "Moe"
   },
   {
     "id": 11,
     "name": "Apu",
-    "image": "/assets/images/apu.jfif",
+    "image": "./assets/images/apu",
     "alt": "Apu"
   },
   {
     "id": 12,
     "name": "Comic Book Guy",
-    "image": "/assets/images/comic-book-guy.jfif",
+    "image": "./assets/images/comic-book-guy",
     "alt": "Comic Book Guy"
   }
 ]

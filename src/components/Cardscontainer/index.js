@@ -1,12 +1,20 @@
-import React from "react";
+import React, { Component } from "react";
 import "./cardcontainer.css";
-import GameCard from "../Cards";
+import images from "../../assets/images/simpsons.json";
+class CardContainer extends Component {
+  render() {
+    return (
+      <div className="container-fluid">
+        {
+          images.map((char) => {
+            return (
+              <img key={char.id} className="img img-thumbnails" src={require(char.image + ".jpg")} alt={char.alt}></img>
+            )
+          })
 
-function CardContainer() {
-  return (
-    <div>
-      <div className="container-fluid"><GameCard /></div>
-    </div>
-  )
+        }
+      </div>
+    )
+  }
 }
 export default CardContainer;
