@@ -3,9 +3,7 @@ import "./footer.css";
 
 function Footer() {
   return (
-    <div>
-      <div className="footer"><div className="bottom">Clicky Game Simpsons Edition Copyright 2020</div></div>
-    </div>
+    <div className="text-center footer"><h5>Clicky Game Simpsons Edition Copyright 2020</h5></div>
   )
 }
 export default Footer;

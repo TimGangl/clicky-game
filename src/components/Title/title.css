@@ -1,3 +1,10 @@
-.jumbotron{
-background-image: url("/public/simpsons-background.jpg");
+.jumbotron-fluid{
+padding-bottom: 64px;
+margin-bottom: 0px;
+background-color: yellow;
+height: 400px;
+}
+
+.container{
+  padding-top: 50px;
 }
