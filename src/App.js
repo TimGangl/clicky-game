@@ -29,7 +29,11 @@ class App extends Component {
   }
   render() {
     return (<div>
-      <NavBar />
+      <NavBar
+        status={this.state.status}
+        score={this.state.score}
+        topScore={this.state.topScore}
+      />
       <Title />
       <div className="container-fluid">
         <div className="row">
