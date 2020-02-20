@@ -5,7 +5,6 @@ import Title from './components/Title';
 import Card from "./components/Card";
 import Footer from './components/Footer';
 import images from "./assets/images/simpsons.json"
-
 class App extends Component {
 
   state = {
@@ -13,8 +12,7 @@ class App extends Component {
     charClicked: [],
     score: 0,
     topScore: 0,
-    message: "Click on an image to begin!",
-
+    message: "Click on an image to begin!"
   }
 
 
@@ -64,15 +62,20 @@ class App extends Component {
   render() {
     return (<div className="App">
       <NavBar
-        message={this.state.status}
+        message={this.state.message}
         score={this.state.score}
         topScore={this.state.topScore}
       />
-      <Title />{
-        this.state.images.map(char => {
-          return <Card key={char.id} id={char.id} classname={"img img-thumbnail"} src={require(char.image + ".jpg")} alt={char.name} onClick={this.clickHandler} />
-        })
-      }
+      <Title /><div className="row">
+        <div className="col-sm-1"></div>
+        <div className="col-sm-10">{
+          this.state.images.map(char => {
+            return <Card key={char.id} id={char.id} classname={"img img-thumbnail"} src={require(char.image + ".jpg")} alt={char.name} onClick={this.clickHandler} />
+          })
+        }
+        </div>
+        <div className="col-sm-1"></div>
+      </div>
       <Footer />
     </div>
     );
