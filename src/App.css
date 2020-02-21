@@ -37,7 +37,7 @@
   }
 }
 
-img{
+.img-thumbnail{
   width: 175px;
   height: 175px;
   border: #282c34;
@@ -52,12 +52,12 @@ img{
   
 }
 
-img:hover {
+.img-thumbnail:hover {
   box-shadow: px 8px 20px rgb(56, 56, 56);
   cursor: pointer;
   transform: scale(1.1);
 }
 
-img:active {
+.img-thumbnail:active {
   transform: translate(1px, 1px);
 }
