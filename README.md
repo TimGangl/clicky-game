@@ -8,6 +8,17 @@ This is a fun memory game based on the Simpsons characters, created with React.j
 * Javascript
 * JSX
 
+## Getting Started
+* Clone repository
+* CD into root directory 
+* npm install
+* npm start 
+
+## Screenshot
+Screenshot of the App
+<br>
+![Clicky Game](clicky.png)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
