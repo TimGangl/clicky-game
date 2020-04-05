@@ -1,5 +1,5 @@
 # Clicky Game Simpsons Edition
-This is a fun memory game based on the Simpsons characters, created with React.js. THe user must click a picture and continue to click differnet pictures. If the same picture is clicked more than once the game starts over. Keeps track of score as well as high score. 
+This is a fun memory game based on the Simpsons characters, created with React.js. THe user must click a picture and then images shuffel. The user continues to click differnet pictures. If the same picture is clicked more than once the game starts over. Win by correctly clicking all twelve images. 
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
