@@ -2,7 +2,8 @@
   "name": "clicky-game",
   "version": "0.1.0",
   "engine": {
-    "npm": "12.13.1"
+    "npm": "12.13.1",
+    "nopde": "19.2.0"
   },
   "private": true,
   "dependencies": {
